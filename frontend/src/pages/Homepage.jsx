@@ -1,12 +1,12 @@
-import React from 'react';
-import Frontpage from '../assets/Frontpage.png';
+import Frontpage from "../assets/Frontpage.png";
+import Homepage from "./Homepage.css";
 
 function ImgDisplay() {
-    return (
-        <div className="img-container">
-            <img src={Frontpage} alt="Frontpage" className="frontpage-image" />
-        </div>
-    );
+  return (
+    <div className="img-container d-flex justify-content-center align-items-center">
+      <img src={Frontpage} alt="Frontpage" className="frontpage-image" />
+    </div>
+  );
 }
 
 export default ImgDisplay;
